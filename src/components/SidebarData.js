@@ -34,31 +34,31 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: 'Reports',
+        title: 'Rapports',
         path: '/reports/reports1',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
-        title: 'Reports 2',
+        title: 'Rapports 2',
         path: '/reports/reports2',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
-        title: 'Reports 3',
+        title: 'Rapports 3',
         path: '/reports/reports3',
         icon: <IoIcons.IoIosPaper />
       }
     ]
   },
   {
-    title: 'Products',
+    title: 'Produits',
     path: '/products',
     icon: <FaIcons.FaCartPlus />
   },
   {
-    title: 'Team',
+    title: 'Equipe',
     path: '/team',
     icon: <IoIcons.IoMdPeople />
   },
@@ -84,7 +84,7 @@ export const SidebarData = [
     ]
   },
   {
-    title: 'Support',
+    title: 'Assistance',
     path: '/support',
     icon: <IoIcons.IoMdHelpCircle />
   }
