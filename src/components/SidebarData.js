@@ -6,7 +6,7 @@ import * as RiIcons from 'react-icons/ri';
 
 export const SidebarData = [
   {
-    title: 'Overview',
+    title: "Vue d'ensemble",
     path: '/overview',
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -14,19 +14,19 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: 'Users',
+        title: 'Utalisateurs',
         path: '/overview/users',
         icon: <IoIcons.IoIosPaper />
       },
       {
-        title: 'Revenue',
+        title: 'Revenus',
         path: '/overview/revenue',
         icon: <IoIcons.IoIosPaper />
       }
     ]
   },
   {
-    title: 'Reports',
+    title: 'Rapports',
     path: '/reports',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
